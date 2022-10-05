@@ -22,7 +22,10 @@ const Home = ({ cat }) => {
       </Head>
 
       <main className={styles.main}>
-        <Image src={cat.file} width={200} height={200} />
+        <Image src={cat.file} width={800} height={600} />
+        <h2>
+          Click on the image to prevent the browser from forcibly closing the browser
+        </h2>
       </main>
     </div>
   )
